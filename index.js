@@ -4,11 +4,12 @@
  * @return {string} The current version of the package.
  */
 function getVersion() {
-  if (process.env.npm_package_version) {
-    return process.env.npm_package_version;
+  let version = process.env.npm_package_version;
+  if (version === undefined || version === null) {
+    const pkg = require(require('app-root-path').resolve('./package.json'));
+    version = pkg.version;
   }
-  const pkg = require(require('app-root-path').resolve('./package.json'));
-  return pkg.version;
+  return version;
 }
 
 module.exports = getVersion();
