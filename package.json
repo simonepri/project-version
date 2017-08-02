@@ -8,6 +8,7 @@
   },
   "devDependencies": {
     "ava": "*",
+    "clear-require": "^2.0.0",
     "codecov": "^2.2.0",
     "nyc": "^11.0.3",
     "xo": "*"
