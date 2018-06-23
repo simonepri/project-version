@@ -2,9 +2,9 @@
   "name": "project-version",
   "version": "1.0.0",
   "description": "Get the current version of your project",
-  "main": "index.js",
+  "main": "src/index.js",
   "bin": {
-    "project-version": "./cli.js"
+    "project-version": "./src/cli.js"
   },
   "dependencies": {
     "app-root-path": "^2.0.1"
