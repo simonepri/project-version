@@ -1,5 +1,7 @@
 #!/usr/bin/env node
-const projectVersion = require('./index');
+'use strict';
+
+const projectVersion = require('./lib');
 
 // Note: I use stdout.write here to avoid whitespaces in the output,
 // which could be problematic when used with other cli tools in npm scripts
