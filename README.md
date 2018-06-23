@@ -73,13 +73,34 @@
 $ npm install --save project-version
 ```
 
-## Usage
-
+## JS Usage
 ```js
 const version = require('project-version');
 
+// Caution: console.log outputs newlines, use process.stdout.write to avoid whitespaces
 console.log(version);
 // =>  '1.0.1'
+```
+
+## CLI Usage
+
+### inside npm scripts
+```json
+{
+  "scripts": {
+    "get-version": "project-version",
+    "capture-version-for-build-scripts": "echo $(project-version)"
+  }
+}
+```
+
+### outside npm scripts
+```bash
+// with npm@5.2.0
+npx project-version
+
+// before npm@5.2.0
+node ./node_modules/project-version/cli.js
 ```
 
 ## Authors
