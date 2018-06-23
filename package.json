@@ -49,6 +49,18 @@
   },
   "homepage": "https://github.com/simonepri/project-version#readme",
   "xo": {
-    "space": true
+    "space": true,
+    "rules": {
+      "prefer-destructuring": [
+        "error",
+        {
+          "array": false,
+          "object": false
+        },
+        {
+          "enforceForRenamedProperties": false
+        }
+      ]
+    }
   }
 }
