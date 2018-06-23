@@ -6,8 +6,7 @@
 function getVersion() {
   let version = process.env.npm_package_version;
   if (version === undefined || version === null) {
-    const pkg = require(require('app-root-path').resolve('./package.json'));
-    version = pkg.version;
+    version = require(require('app-root-path').resolve('./package.json')).version;
   }
   return version;
 }
