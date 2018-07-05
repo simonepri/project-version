@@ -4,7 +4,7 @@ import freshreq from 'import-fresh';
 test('should return the version', t => {
   const m = freshreq('.');
 
-  t.is(m, '1.0.0');
+  t.is(m, '1.0.2');
 });
 
 test('should return the version if the env var is undefined', t => {
@@ -12,6 +12,6 @@ test('should return the version if the env var is undefined', t => {
   delete process.env.npm_package_version;
   const m = freshreq('.');
 
-  t.is(m, '1.0.0');
+  t.is(m, '1.0.2');
   process.env.npm_package_version = original; // eslint-disable-line camelcase
 });
