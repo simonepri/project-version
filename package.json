@@ -1,7 +1,7 @@
 {
-  "name": "project-version",
+  "name": "project-version-cli",
   "version": "1.0.0",
-  "description": "Get the current version of your project",
+  "description": "Get the current version of your project as js lib or via cli call",
   "main": "src/index.js",
   "bin": {
     "project-version": "./src/cli.js"
@@ -25,11 +25,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/simonepri/project-version.git"
+    "url": "git+https://github.com/bjesuiter/project-version.git"
   },
   "author": {
-    "name": "Simone Primarosa",
-    "email": "simone.pri@hotmail.it"
+    "name": "Benjamin Jesuiter",
+    "email": "bjesuiter@gmail.com"
   },
   "keywords": [
     "project",
@@ -45,9 +45,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/simonepri/project-version/issues"
+    "url": "https://github.com/bjesuiter/project-version/issues"
   },
-  "homepage": "https://github.com/simonepri/project-version#readme",
+  "homepage": "https://github.com/bjesuiter/project-version#readme",
   "xo": {
     "space": true,
     "rules": {
