@@ -1,5 +1,6 @@
 #tests
 test.js
+.nyc_output
 
 #build tools
 .travis.yml
@@ -7,10 +8,10 @@ codecov.yml
 
 #editor settings
 .editorconfig
+.idea
 
 #github
 .gitattributes
 .gitignore
 CODE_OF_CONDUCT.md
 
-.nyc_output
