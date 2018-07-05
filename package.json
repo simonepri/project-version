@@ -10,12 +10,12 @@
     "app-root-path": "^2.0.1"
   },
   "devDependencies": {
-    "ava": "*",
+    "ava": "^0.25.0",
     "codecov": "^3.0.2",
     "del-cli": "^1.1.0",
     "import-fresh": "^2.0.0",
     "nyc": "^11.0.3",
-    "xo": "*"
+    "xo": "^0.21.1"
   },
   "engines": {
     "node": ">=6"
