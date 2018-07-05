@@ -12,7 +12,6 @@
   "devDependencies": {
     "ava": "^0.25.0",
     "codecov": "^3.0.2",
-    "del-cli": "^1.1.0",
     "import-fresh": "^2.0.0",
     "nyc": "^11.0.3",
     "xo": "^0.21.1"
@@ -22,8 +21,7 @@
   },
   "scripts": {
     "test": "xo && ava",
-    "coverage": "nyc npm test && nyc report --reporter=text-lcov > coverage/coverage.lcov && codecov",
-    "rm-package-lock": "del package-lock.json"
+    "coverage": "nyc npm test && nyc report --reporter=text-lcov > coverage/coverage.lcov && codecov"
   },
   "repository": {
     "type": "git",
