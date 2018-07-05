@@ -1,6 +1,6 @@
 # project-version
-> Get the current version of your project as js lib or via cli call.
-< Forked from [https://github.com/simonepri/project-version](https://github.com/simonepri/project-version)
+> Get the current version of your project as js lib or via cli call.  
+> Forked from [https://github.com/simonepri/project-version](https://github.com/simonepri/project-version)
 
 ## Install
 
