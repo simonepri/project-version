@@ -12,3 +12,5 @@ codecov.yml
 .gitattributes
 .gitignore
 CODE_OF_CONDUCT.md
+
+.nyc_output
