@@ -1,6 +1,6 @@
 {
   "name": "project-version-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get the current version of your project as js lib or via cli call",
   "main": "src/index.js",
   "bin": {
