@@ -3,6 +3,7 @@ import freshreq from 'import-fresh';
 
 test('should return the version', t => {
   const m = freshreq('.');
+  const v = require('./package.json').version;
 
-  t.is(m, '1.0.0');
+  t.is(m, v);
 });
