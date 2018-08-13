@@ -31,6 +31,9 @@
     "name": "Simone Primarosa",
     "email": "simone.pri@hotmail.it"
   },
+  "contributors": [
+    "Benjamin Jesuiter <bjesuiter@gmail.com> (https://github.com/bjesuiter)"
+  ],
   "keywords": [
     "project",
     "latest",
