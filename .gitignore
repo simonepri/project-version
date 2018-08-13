@@ -1,6 +1,3 @@
-# Ignore IntelliJ Idea files to be IDE agnostic
-.idea
-
 # Logs
 logs
 *.log
