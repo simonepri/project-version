@@ -1,37 +1,19 @@
 {
   "name": "project-version",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Get the current version of your project",
-  "main": "index.js",
+  "license": "MIT",
+  "homepage": "https://github.com/simonepri/project-version#readme",
+  "repository": "github:simonepri/project-version",
+  "bugs": {
+    "url": "https://github.com/simonepri/project-version/issues"
+  },
   "bin": {
     "project-version": "./cli.js"
   },
-  "dependencies": {
-    "app-root-path": "^2.0.1"
-  },
-  "devDependencies": {
-    "ava": "*",
-    "codecov": "^2.2.0",
-    "import-fresh": "^2.0.0",
-    "nyc": "^11.0.3",
-    "xo": "*"
-  },
-  "engines": {
-    "node": ">=4"
-  },
-  "scripts": {
-    "test": "xo && ava",
-    "coverage": "nyc npm test && nyc report --reporter=text-lcov > coverage/coverage.lcov && codecov"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/simonepri/project-version.git"
-  },
-  "author": {
-    "name": "Simone Primarosa",
-    "email": "simone.pri@hotmail.it"
-  },
+  "author": "Simone Primarosa <simonepri@outlook.com> (https://simoneprimarosa.com)",
   "contributors": [
+    "Simone Primarosa <simonepri@outlook.com> (https://simoneprimarosa.com)",
     "Benjamin Jesuiter <bjesuiter@gmail.com> (https://github.com/bjesuiter)"
   ],
   "keywords": [
@@ -46,12 +28,40 @@
     "current",
     "module"
   ],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/simonepri/project-version/issues"
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=4"
   },
-  "homepage": "https://github.com/simonepri/project-version#readme",
+  "scripts": {
+    "test": "xo &&nyc ava",
+    "release": "np",
+    "update": "npm-check -u"
+  },
+  "dependencies": {
+    "read-pkg": "^4.0.1"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "import-fresh": "^2.0.0",
+    "np": "*",
+    "npm-check": "*",
+    "nyc": "*",
+    "xo": "*"
+  },
+  "ava": {
+    "verbose": true
+  },
+  "nyc": {
+    "reporter": [
+      "lcovonly",
+      "text"
+    ]
+  },
   "xo": {
+    "prettier": true,
     "space": true
   }
 }
