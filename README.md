@@ -93,10 +93,10 @@ See also the list of [contributors][contributors] who participated in this proje
 This project is licensed under the MIT License - see the [license][license] file for details.
 
 <!-- Links -->
-[start]: https://github.com/simonepri/osm-geojson#start-of-content
-[contributors]: https://github.com/simonepri/osm-geojson/contributors
+[start]: https://github.com/simonepri/project-version#start-of-content
+[contributors]: https://github.com/simonepri/project-version/contributors
 
-[license]: https://github.com/simonepri/osm-geojson/tree/master/license
+[license]: https://github.com/simonepri/project-version/tree/master/license
 
 [github:simonepri]: https://github.com/simonepri
 [twitter:simoneprimarosa]: http://twitter.com/intent/user?screen_name=simoneprimarosa
