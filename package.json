@@ -30,7 +30,8 @@
   ],
   "main": "index.js",
   "files": [
-    "index.js"
+    "index.js",
+    "cli.js"
   ],
   "engines": {
     "node": ">=4"
