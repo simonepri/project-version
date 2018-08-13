@@ -8,9 +8,13 @@
   "bugs": {
     "url": "https://github.com/simonepri/project-version/issues"
   },
+  "bin": {
+    "project-version": "./cli.js"
+  },
   "author": "Simone Primarosa <simonepri@outlook.com> (https://simoneprimarosa.com)",
   "contributors": [
-    "Simone Primarosa <simonepri@outlook.com> (https://simoneprimarosa.com)"
+    "Simone Primarosa <simonepri@outlook.com> (https://simoneprimarosa.com)",
+    "Benjamin Jesuiter <bjesuiter@gmail.com> (https://github.com/bjesuiter)"
   ],
   "keywords": [
     "project",
@@ -26,7 +30,8 @@
   ],
   "main": "index.js",
   "files": [
-    "index.js"
+    "index.js",
+    "cli.js"
   ],
   "engines": {
     "node": ">=4"
