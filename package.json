@@ -1,6 +1,6 @@
 {
   "name": "project-version",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Get the current version of your project",
   "license": "MIT",
   "homepage": "https://github.com/simonepri/project-version#readme",
