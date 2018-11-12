@@ -73,7 +73,7 @@
 $ npm install --save project-version
 ```
 
-## JS Usage
+## Usage
 ```js
 const version = require('project-version');
 
@@ -82,21 +82,21 @@ console.log(version);
 // =>  '1.0.1'
 ```
 
-## CLI Usage
+## CLI
 
 ### inside npm scripts
 ```json
 {
   "scripts": {
     "get-version": "project-version",
-    "capture-version-for-build-scripts": "echo $(project-version)"
+    "capture-version-for-build-scripts-on-linux": "echo $(project-version)"
   }
 }
 ```
 
 ### outside npm scripts
 ```bash
-// with npm@5.2.0
+// with npm@5.2.0 and above
 npx project-version
 
 // before npm@5.2.0
