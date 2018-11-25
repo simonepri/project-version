@@ -74,12 +74,21 @@ $ npm install --save project-version
 ```
 
 ## Usage
-
 ```js
 const version = require('project-version');
-
-console.log(version);
 // =>  '1.0.1'
+```
+
+## CLI
+
+### Install
+To use the CLI just install the package globally.
+```
+$ npm install --g project-version
+```
+Or run it with `npx` if you are not planning to use it more than once.
+```
+$ npx project-version
 ```
 
 ## Authors
