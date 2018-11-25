@@ -76,31 +76,19 @@ $ npm install --save project-version
 ## Usage
 ```js
 const version = require('project-version');
-
-// Caution: console.log outputs newlines, use process.stdout.write to avoid whitespaces
-console.log(version);
 // =>  '1.0.1'
 ```
 
 ## CLI
 
-### inside npm scripts
-```json
-{
-  "scripts": {
-    "get-version": "project-version",
-    "capture-version-for-build-scripts-on-linux": "echo $(project-version)"
-  }
-}
+### Install
+To use the CLI just install the package globally.
 ```
-
-### outside npm scripts
-```bash
-// with npm@5.2.0 and above
-npx project-version
-
-// before npm@5.2.0
-node ./node_modules/project-version/cli.js
+$ npm install --g project-version
+```
+Or run it with `npx` if you are not planning to use it more than once.
+```
+$ npx project-version
 ```
 
 ## Authors
