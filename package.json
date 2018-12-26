@@ -46,7 +46,7 @@
   },
   "devDependencies": {
     "ava": "*",
-    "import-fresh": "^2.0.0",
+    "import-fresh": "^3.0.0",
     "np": "*",
     "npm-check": "*",
     "nyc": "*",
