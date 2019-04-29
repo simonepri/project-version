@@ -42,7 +42,7 @@
     "update": "npm-check -u"
   },
   "dependencies": {
-    "read-pkg": "^4.0.1"
+    "read-pkg": "^5.1.1"
   },
   "devDependencies": {
     "ava": "*",
