@@ -37,20 +37,19 @@
     "node": ">=4"
   },
   "scripts": {
-    "test": "xo &&nyc ava",
-    "release": "np",
-    "update": "npm-check -u"
+    "lint": "xo",
+    "test": "nyc ava",
+    "release": "npx np",
+    "update": "npx npm-check -u"
   },
   "dependencies": {
     "read-pkg": "^3.0.0"
   },
   "devDependencies": {
-    "ava": "*",
+    "ava": "~0.25.0",
     "import-fresh": "^2.0.0",
-    "np": "*",
-    "npm-check": "*",
-    "nyc": "*",
-    "xo": "*"
+    "nyc": "^11.6.0",
+    "xo": "~0.20.3"
   },
   "ava": {
     "verbose": true
@@ -63,6 +62,10 @@
   },
   "xo": {
     "prettier": true,
-    "space": true
+    "space": true,
+    "rules": {
+      "prefer-destructuring": 0,
+      "import/no-unresolved": 0
+    }
   }
 }
