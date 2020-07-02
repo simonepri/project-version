@@ -43,7 +43,7 @@
     "update": "npx npm-check -u"
   },
   "dependencies": {
-    "read-pkg": "^3.0.0"
+    "read-pkg": "^5.2.0"
   },
   "devDependencies": {
     "ava": "~0.25.0",
