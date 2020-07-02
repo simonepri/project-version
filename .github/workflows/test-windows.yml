@@ -13,7 +13,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        node: [14, 12, 10, 8, 6, 4]
+        node: [14, 12, 10]
     steps:
       - name: Setup repo
         uses: actions/checkout@v2
@@ -23,11 +23,11 @@ jobs:
           node-version: ${{ matrix.node }}
       - name: Install lib dependencies
         run: |
-          npm install --only=prod
+          npm install --production
           npm list --prod --depth=0
       - name: Install dev dependencies
         run: |
-          npm install --only=dev
+          npm install
           npm list --dev --depth=0
       - name: Run tests
         run: npm run test

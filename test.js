@@ -1,5 +1,5 @@
-import test from 'ava';
-import freshreq from 'import-fresh';
+const test = require('ava');
+const freshreq = require('import-fresh');
 
 test('should return the version', t => {
   const m = freshreq('.');

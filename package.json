@@ -34,7 +34,7 @@
     "cli.js"
   ],
   "engines": {
-    "node": ">=4"
+    "node": ">=10"
   },
   "scripts": {
     "lint": "xo",
@@ -43,13 +43,13 @@
     "update": "npx npm-check -u"
   },
   "dependencies": {
-    "read-pkg": "^3.0.0"
+    "read-pkg": "^5.2.0"
   },
   "devDependencies": {
-    "ava": "~0.25.0",
-    "import-fresh": "^2.0.0",
-    "nyc": "^11.6.0",
-    "xo": "~0.20.3"
+    "ava": "^3.9.0",
+    "import-fresh": "^3.2.1",
+    "nyc": "^15.1.0",
+    "xo": "~0.27.2"
   },
   "ava": {
     "verbose": true
